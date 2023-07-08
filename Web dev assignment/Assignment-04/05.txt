@@ -1,0 +1,2 @@
+Q.5 What is the difference between let and const ?
+Ans. 
