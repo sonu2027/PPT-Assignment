@@ -36,11 +36,9 @@ let update=document.getElementById("update");
 inputbutton[3].addEventListener("click", edittask);
 function edittask(){
     inputbutton[2].innerText="Mark Completed"
-    // para[0].innerText=input[0].value;
     para[1].innerText="Status: Pending";
     inputbutton[2].style.background="rgb(50, 238, 50)";
     input[0].placeholder="Edit your task";
-    // input[0].value="";
     update.style.display="block";
 }
 inputbutton[4].addEventListener("click", updateinput);
